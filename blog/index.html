@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Шифо - Блоги саломатӣ</title>
+  <meta name="title" content="Doclab - home">
+  <meta name="description" content="This is a madical html template made by codewithsadee">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&family=Rubik:wght@400;500;700&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.png">
+  <link rel="preload" as="image" href="./assets/images/hero-bg.png">
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #PRELOADER
+  -->
+
+  <div class="preloader" data-preloader>
+    <div class="circle"></div>
+  </div>
+
+
+
+
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="../index.html" class="logo">
+        <img src="./assets/images/logo1.png" width="136" height="46" alt="Шифо - Асосӣ">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+
+          <a href="../index.html" class="logo">
+            <img src="./assets/images/logo1.png" width="136" height="46" alt="Шифо - Асосӣ">
+          </a>
+
+          <button class="nav-close-btn" aria-label="clsoe menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+
+        </div>
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="../index.html" class="navbar-link title-md">Асосӣ</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link title-md">Сӯҳбат бо духтар</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link title-md">Хизматрасониҳо</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link title-md">Тамос</a>
+          </li>
+          
+        </ul>
+
+        <ul class="social-list">
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-pinterest"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline"></ion-icon>
+      </button>
+
+      <a href="#" class="btn has-before title-md">SOS</a>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero" style="background-image: url('./assets/images/hero-bg.png')" aria-label="home">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <p class="hero-subtitle has-before" data-reveal="left">Хуш омадед ба Шифо!</p>
+
+            <h1 class="headline-lg hero-title" data-reveal="left">
+              Рақамикунонии тиббӣ тоҷик.
+            </h1>
+
+            <div class="hero-card" data-reveal="left">
+
+              <p class="title-lg card-text">
+                Ҷӯстуҷӯи дорухонаҳо, беморхонаҳо ва ғайра.
+              </p>
+
+              <div class="wrapper">
+
+                <div class="input-wrapper title-lg">
+                  <input type="text" name="location" placeholder="Ҷойгиршавӣ" class="input-field">
+
+                  <ion-icon name="location"></ion-icon>
+                </div>
+
+                <button class="btn has-before">
+                  <ion-icon name="search"></ion-icon>
+
+                  <span class="span title-md">Ёфтан!</span>
+                </button>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <figure class="hero-banner" data-reveal="right">
+            <img src="./assets/images/hero-banner.png" width="590" height="517" loading="eager" alt="hero banner"
+              class="w-100">
+          </figure>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <section class="section blog" aria-labelledby="blog-label">
+        <div class="container">
+
+          <br>
+
+          <h2 class="section-title headline-md text-center" data-reveal="bottom">Блоги саломатӣ</h2>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="blog-card has-before has-after" data-reveal="bottom">
+
+                <div class="meta-wrapper">
+
+                  <div class="card-meta">
+                    <ion-icon name="person-outline"></ion-icon>
+
+                    <span class="span">By Admin</span>
+                  </div>
+
+                  <div class="card-meta">
+                    <ion-icon name="folder-outline"></ion-icon>
+
+                    <span class="span">Specialist</span>
+                  </div>
+
+                </div>
+
+                <h3 class="headline-sm card-title">Could intermittent fasting reduce breast cancer</h3>
+
+                <time class="title-sm date" datetime="2022-01-28">28 January, 2022</time>
+
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+                  labore et dolore magna aliquyam erat
+                </p>
+
+                <a href="#" class="btn-text title-lg">Read More</a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card has-before has-after" data-reveal="bottom">
+
+                <div class="meta-wrapper">
+
+                  <div class="card-meta">
+                    <ion-icon name="person-outline"></ion-icon>
+
+                    <span class="span">By Admin</span>
+                  </div>
+
+                  <div class="card-meta">
+                    <ion-icon name="folder-outline"></ion-icon>
+
+                    <span class="span">Specialist</span>
+                  </div>
+
+                </div>
+
+                <h3 class="headline-sm card-title">Give children more autonomy during the pandemic</h3>
+
+                <time class="title-sm date" datetime="2022-01-28">28 January, 2022</time>
+
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+                  labore et dolore magna aliquyam erat
+                </p>
+
+                <a href="#" class="btn-text title-lg">Read More</a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card has-before has-after" data-reveal="bottom">
+
+                <div class="meta-wrapper">
+
+                  <div class="card-meta">
+                    <ion-icon name="person-outline"></ion-icon>
+
+                    <span class="span">By Admin</span>
+                  </div>
+
+                  <div class="card-meta">
+                    <ion-icon name="folder-outline"></ion-icon>
+
+                    <span class="span">Specialist</span>
+                  </div>
+
+                </div>
+
+                <h3 class="headline-sm card-title">How do binge eating and drinking impact the liver?</h3>
+
+                <time class="title-sm date" datetime="2022-01-28">28 January, 2022</time>
+
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+                  labore et dolore magna aliquyam erat
+                </p>
+
+                <a href="#" class="btn-text title-lg">Read More</a>
+
+              </div>
+            </li>
+
+          </ul>
+          <br>
+          <ul class="grid-list">
+
+            <li>
+              <div class="blog-card has-before has-after" data-reveal="bottom">
+
+                <div class="meta-wrapper">
+
+                  <div class="card-meta">
+                    <ion-icon name="person-outline"></ion-icon>
+
+                    <span class="span">By Admin</span>
+                  </div>
+
+                  <div class="card-meta">
+                    <ion-icon name="folder-outline"></ion-icon>
+
+                    <span class="span">Specialist</span>
+                  </div>
+
+                </div>
+
+                <h3 class="headline-sm card-title">Could intermittent fasting reduce breast cancer</h3>
+
+                <time class="title-sm date" datetime="2022-01-28">28 January, 2022</time>
+
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+                  labore et dolore magna aliquyam erat
+                </p>
+
+                <a href="#" class="btn-text title-lg">Read More</a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card has-before has-after" data-reveal="bottom">
+
+                <div class="meta-wrapper">
+
+                  <div class="card-meta">
+                    <ion-icon name="person-outline"></ion-icon>
+
+                    <span class="span">By Admin</span>
+                  </div>
+
+                  <div class="card-meta">
+                    <ion-icon name="folder-outline"></ion-icon>
+
+                    <span class="span">Specialist</span>
+                  </div>
+
+                </div>
+
+                <h3 class="headline-sm card-title">Give children more autonomy during the pandemic</h3>
+
+                <time class="title-sm date" datetime="2022-01-28">28 January, 2022</time>
+
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+                  labore et dolore magna aliquyam erat
+                </p>
+
+                <a href="#" class="btn-text title-lg">Read More</a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card has-before has-after" data-reveal="bottom">
+
+                <div class="meta-wrapper">
+
+                  <div class="card-meta">
+                    <ion-icon name="person-outline"></ion-icon>
+
+                    <span class="span">By Admin</span>
+                  </div>
+
+                  <div class="card-meta">
+                    <ion-icon name="folder-outline"></ion-icon>
+
+                    <span class="span">Specialist</span>
+                  </div>
+
+                </div>
+
+                <h3 class="headline-sm card-title">How do binge eating and drinking impact the liver?</h3>
+
+                <time class="title-sm date" datetime="2022-01-28">28 January, 2022</time>
+
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+                  labore et dolore magna aliquyam erat
+                </p>
+
+                <a href="#" class="btn-text title-lg">Read More</a>
+
+              </div>
+            </li>
+
+          </ul>
+          <br>
+          <ul class="grid-list">
+
+            <li>
+              <div class="blog-card has-before has-after" data-reveal="bottom">
+
+                <div class="meta-wrapper">
+
+                  <div class="card-meta">
+                    <ion-icon name="person-outline"></ion-icon>
+
+                    <span class="span">By Admin</span>
+                  </div>
+
+                  <div class="card-meta">
+                    <ion-icon name="folder-outline"></ion-icon>
+
+                    <span class="span">Specialist</span>
+                  </div>
+
+                </div>
+
+                <h3 class="headline-sm card-title">Could intermittent fasting reduce breast cancer</h3>
+
+                <time class="title-sm date" datetime="2022-01-28">28 January, 2022</time>
+
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+                  labore et dolore magna aliquyam erat
+                </p>
+
+                <a href="#" class="btn-text title-lg">Read More</a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card has-before has-after" data-reveal="bottom">
+
+                <div class="meta-wrapper">
+
+                  <div class="card-meta">
+                    <ion-icon name="person-outline"></ion-icon>
+
+                    <span class="span">By Admin</span>
+                  </div>
+
+                  <div class="card-meta">
+                    <ion-icon name="folder-outline"></ion-icon>
+
+                    <span class="span">Specialist</span>
+                  </div>
+
+                </div>
+
+                <h3 class="headline-sm card-title">Give children more autonomy during the pandemic</h3>
+
+                <time class="title-sm date" datetime="2022-01-28">28 January, 2022</time>
+
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+                  labore et dolore magna aliquyam erat
+                </p>
+
+                <a href="#" class="btn-text title-lg">Read More</a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card has-before has-after" data-reveal="bottom">
+
+                <div class="meta-wrapper">
+
+                  <div class="card-meta">
+                    <ion-icon name="person-outline"></ion-icon>
+
+                    <span class="span">By Admin</span>
+                  </div>
+
+                  <div class="card-meta">
+                    <ion-icon name="folder-outline"></ion-icon>
+
+                    <span class="span">Specialist</span>
+                  </div>
+
+                </div>
+
+                <h3 class="headline-sm card-title">How do binge eating and drinking impact the liver?</h3>
+
+                <time class="title-sm date" datetime="2022-01-28">28 January, 2022</time>
+
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+                  labore et dolore magna aliquyam erat
+                </p>
+
+                <a href="#" class="btn-text title-lg">Read More</a>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer" style="background-image: url('./assets/images/footer-bg.png')">
+    <div class="container">
+
+      <div class="section footer-top">
+
+        <div class="footer-brand" data-reveal="bottom">
+
+          <a href="#" class="logo">
+            <img src="./assets/images/logo1.png" width="136" height="46" loading="lazy" alt="Doclab home">
+          </a>
+
+          <ul class="contact-list has-after">
+
+            <li class="contact-item">
+
+              <div class="item-icon">
+                <ion-icon name="mail-open-outline"></ion-icon>
+              </div>
+
+              <div>
+                <p>
+                  Почтаи электронӣ : <a href="mailto:contact@shifo.tj" class="contact-link">contact@&shy;shifo.tj</a>
+                </p>
+
+                <p>
+                  Саволҳо : <a href="mailto:Info@shifo.tj" class="contact-link">Info@shifo.tj</a>
+                </p>
+              </div>
+
+            </li>
+
+            <li class="contact-item">
+
+              <div class="item-icon">
+                <ion-icon name="call-outline"></ion-icon>
+              </div>
+
+              <div>
+                <p>
+                  Рақами телефон : <a href="tel:0029129102320" class="contact-link">(+992) 555-55-02-10</a>
+                </p>
+
+                <p>
+                  Телефони мобилӣ : <a href="tel:000232439493" class="contact-link">(+992) 900-44-64-17</a>
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </div>
+
+        <div class="footer-list" data-reveal="bottom">
+
+          <p class="headline-sm footer-list-title">Дар бораи мо</p>
+
+          <p class="text">
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+          </p>
+
+          <address class="address">
+            <ion-icon name="map-outline"></ion-icon>
+
+            <span class="text">
+              2416 Mapleview Drive <br>
+              Tampa, FL 33634
+            </span>
+          </address>
+
+        </div>
+
+        <ul class="footer-list" data-reveal="bottom">
+
+          <li>
+            <p class="headline-sm footer-list-title">Хизматрасониҳо</p>
+          </li>
+
+          <li>
+            <a href="#" class="text footer-link">Шароит</a>
+          </li>
+
+          <li>
+            <a href="#" class="text footer-link">Оғоз</a>
+          </li>
+
+          <li>
+            <a href="#" class="text footer-link">Чӣ тавр кор мекунад</a>
+          </li>
+
+          <li>
+            <a href="#" class="text footer-link">Чизе ки Мо пешниҳод мекунем</a>
+          </li>
+
+          <li>
+            <a href="#" class="text footer-link">Охирин хабарҳо</a>
+          </li>
+
+          <li>
+            <a href="#" class="text footer-link">Барои тамос</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list" data-reveal="bottom">
+
+          <li>
+            <p class="headline-sm footer-list-title">Пайвандҳои муфид</p>
+          </li>
+
+          <li>
+            <a href="#" class="text footer-link">Сӯҳбат бо духтар</a>
+          </li>
+
+          <li>
+            <a href="#" class="text footer-link">Шартҳои истифода</a>
+          </li>
+
+          <li>
+            <a href="#" class="text footer-link">Сӯҳбат бо зеҳни сунъӣ</a>
+          </li>
+
+          <li>
+            <a href="#" class="text footer-link">Сӯҳбат бо духтар</a>
+          </li>
+
+          <li>
+            <a href="#" class="text footer-link">Ҳамчун духтур ҳамроҳ шавед</a>
+          </li>
+
+          <li>
+            <a href="#" class="text footer-link">Рӯйхати дастаи Шифо</a>
+          </li>
+
+        </ul>
+
+        <div class="footer-list" data-reveal="bottom">
+
+          <p class="headline-sm footer-list-title">Обуна шавед</p>
+
+          <form action="" class="footer-form">
+            <input type="email" name="email" placeholder="Email" class="input-field title-lg">
+
+            <button type="submit" class="btn has-before title-md">Обуна шавед</button>
+          </form>
+
+          <p class="text">
+            Хабарҳои охиринро тавассути почтаи электронӣ гиред. Ҳар вақт шумо метавонед обунаро қатъ кунед.
+          </p>
+
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+
+        <p class="text copyright">
+          &copy; Шифо 2024 | Ҳама ҳуқуқҳо аз ҷониби samizoda' маҳфузанд
+        </p>
+
+        <ul class="social-list">
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-google"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-pinterest"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="chevron-up"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
